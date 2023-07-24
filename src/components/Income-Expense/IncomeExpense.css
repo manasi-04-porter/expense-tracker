@@ -1,0 +1,33 @@
+.income-expense-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    border: 1px solid #C8C1BF;
+    border-radius: 3px;
+    background-color: #F3EEED;
+    margin-bottom: 30px;
+
+    .vl {
+        height: 40px;
+        width: 2px;
+        background-color: #C8C1BF;
+    }
+
+    .container-text{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .income-amount {
+        color: green;
+        font-size: 12px;
+        text-align: center;
+    }
+    .expense-amount {
+        color: red;
+        font-size: 12px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,14 @@
+.balance-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.balance-amount {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.balance {
+    margin-bottom: 20px;
+}
