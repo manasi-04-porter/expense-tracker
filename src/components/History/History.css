@@ -1,0 +1,18 @@
+.history-entries {
+    overflow-y: auto;
+    max-height: 5rem;
+}
+
+.payment-history {
+    display: flex;
+    justify-content: space-between;
+    height: 1.5rem;
+    background-color: #F3EEED;
+    padding: .3rem;
+    box-shadow: 2px 2px #C8C1BF;
+    margin-bottom: .5rem;
+    border-right: 5px solid green;
+    &.status-red {
+      border-right: 5px solid red;
+    }
+  }

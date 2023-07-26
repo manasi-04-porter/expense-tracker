@@ -1,0 +1,1 @@
+type transaction = {name: string, amount: float};

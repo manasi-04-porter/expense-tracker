@@ -11,4 +11,11 @@
         opacity: 0.5;
         color: #797676;
     }
+
+    .add-transaction {
+        background-color: #8F5EAD;
+        width: -webkit-fill-available;
+        height: 2rem;
+        color: #F6F5F7;
+    }
 }
